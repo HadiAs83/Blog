@@ -1,49 +1,52 @@
-*{
+* {
     font-family: "Roboto", sans-serif;
 }
 
+.description {
+    text-align: justify;
+}
 
-
-body{
+body {
     background-color: #f7f9fc;
     color: #575f7d;
     font-size: 17px;
+    box-sizing: border-box;
 }
 
-h1{
+h1 {
     color: #575f7d;
     font-size: 32px;
 }
 
-h2{
+h2 {
     color: #6d8b74;
     font-size: 20px;
     text-align: center;
 }
 
-.img-circle{
+.img-circle {
     border-radius: 50%;
 }
 
-.page-article{
+.page-article {
     background-color: white;
     text-align: center;
-    
+
 }
 
-.page-footer{
+.page-footer {
     background-color: white;
 }
 
 
-.page-article{
+.page-article {
     margin-right: 450px;
     margin-left: 450px;
     padding: 70px;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
 }
 
-.page-footer{
+.page-footer {
     margin-left: 450px;
     margin-right: 450px;
     margin-top: 20px;
@@ -52,18 +55,20 @@ h2{
 }
 
 
-.page-article p{
+.page-article p {
     margin-bottom: 40px;
 }
 
 
-.button{
+.button {
     background-color: #655d8a;
     color: white;
     padding: 15px 20px;
     text-decoration: none;
-    border-radius: 4px;                /*      redius     */
+    border-radius: 4px;
+    /*      redius     */
 }
+
 .button:hover {
     background-color: black;
     color: white;
@@ -71,11 +76,11 @@ h2{
 
 
 
-.footer-pictures{
+.footer-pictures {
     text-align: center;
 }
 
-.images{
+.images {
     display: inline;
     margin: 15px;
     width: 50px;
@@ -84,19 +89,26 @@ h2{
 
 
 
-li{
+li {
     display: inline-block;
     margin-right: 10px;
     padding-right: auto;
-    padding-top: 15px;   /* 15px */
+    padding-top: 15px;
+    /* 15px */
 }
 
 
-a{
+a {
     text-decoration: none;
     color: #94b3fd;
     font-size: 16px;
 }
+
 a:hover {
     color: black;
+}
+
+.icons {
+    border-radius: 100%;
+    width: 30px;
 }
